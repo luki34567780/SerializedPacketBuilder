@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializedPacketBuilder", "SerializedPacketBuilder\SerializedPacketBuilder.csproj", "{6718B6AB-B231-417C-8C7D-83078830D30A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializedPacketBuilder", "SerializedPacketBuilder\SerializedPacketBuilder.csproj", "{6718B6AB-B231-417C-8C7D-83078830D30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketBuilderTest", "PacketBuilderTest\PacketBuilderTest.csproj", "{B451438A-55A4-4C18-B71E-1123FCB07663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacketBuilderTest", "PacketBuilderTest\PacketBuilderTest.csproj", "{B451438A-55A4-4C18-B71E-1123FCB07663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkingHelper", "NetworkingHelper\NetworkingHelper.csproj", "{0F3DA5BA-D7EF-4582-BD37-2A9DA45FBDA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B451438A-55A4-4C18-B71E-1123FCB07663}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B451438A-55A4-4C18-B71E-1123FCB07663}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B451438A-55A4-4C18-B71E-1123FCB07663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3DA5BA-D7EF-4582-BD37-2A9DA45FBDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3DA5BA-D7EF-4582-BD37-2A9DA45FBDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3DA5BA-D7EF-4582-BD37-2A9DA45FBDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3DA5BA-D7EF-4582-BD37-2A9DA45FBDA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
